@@ -1,0 +1,33 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .cursor-text { 
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-weight: 600;
+        }
+    </style>
+    <!-- 背景圆形 -->
+    <circle cx="60" cy="60" r="56" fill="#007AFF" opacity="0.1"/>
+    <!-- 主圆形 -->
+    <circle cx="60" cy="60" r="48" fill="#007AFF"/>
+    
+    <!-- 程序员剪影 -->
+    <g fill="white">
+        <!-- 显示器 -->
+        <path d="M40 45 h40 v25 h-40 z" fill="none" stroke="white" stroke-width="2"/>
+        <!-- 显示器支架 -->
+        <path d="M55 70 h10 v5 h-10 z" fill="white"/>
+        <path d="M52 75 h16" stroke="white" stroke-width="2"/>
+        
+        <!-- 程序员 -->
+        <circle cx="60" cy="50" r="5"/> <!-- 头部 -->
+        <path d="M55 55 h10 v12 h-10 z"/> <!-- 身体 -->
+        <path d="M53 60 h4 v8 h-4 z"/> <!-- 左手 -->
+        <path d="M63 60 h4 v8 h-4 z"/> <!-- 右手 -->
+        
+        <!-- 代码符号 -->
+        <text x="45" y="55" font-size="8" fill="white">&lt;/&gt;</text>
+    </g>
+    
+    <!-- Cursor 文字 -->
+    <text x="60" y="95" class="cursor-text" text-anchor="middle" fill="white" font-size="16">Cursor</text>
+</svg> 
